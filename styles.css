@@ -76,3 +76,21 @@ button:hover {
     color: #777;
     margin-top: 5px;
 }
+
+/* Botón de eliminar comentario */
+.comment .delete-btn {
+    display: block;
+    margin-top: 10px;
+    background: #ff4747; /* Color rojo más llamativo */
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.comment .delete-btn:hover {
+    background: #cc0000; /* Un rojo más oscuro al pasar el mouse */
+}
